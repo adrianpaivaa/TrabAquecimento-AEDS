@@ -444,7 +444,7 @@ Para cada ciclo:
 
 -Caso o animal esteja em água, umedece o entorno.
 
--Mostra a posição do animal na matriz para facilitar o entendimento.
+-Imprime a matriz no terminal, mostrando exatamente a posição do animal para facilitar o entendimento da movimentação.
 
 -Salva todas as informações no arquivo
 
