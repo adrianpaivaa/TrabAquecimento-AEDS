@@ -39,8 +39,7 @@ bool movimentoAnimal(int** matriz, int n, int m, int& posX, int& posY, int& numC
         passos++;
     } else {
         numCiclos++;
-
-        // ⚠️ Força saída após 3 ciclos numa posição segura (0)
+        
         if (matriz[posX][posY] == 0 && numCiclos >= 3) {
             int fugaX = posX;
             int fugaY = posY;

@@ -54,9 +54,6 @@ void executarSimulacao() {
         std::cerr << "Erro: Posição inicial do animal inválida no arquivo.\n";
         return;
     }
-
-    //int posX = 0; 
-    //int posY = 0; 
     int numCiclos = 0;
 
     int** tempoChamas = new int*[n];
