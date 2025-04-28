@@ -225,7 +225,7 @@ void lerArquivo(const char* caminho, int& n, int& m, int& fogo_i, int& fogo_j, i
     std::ifstream arquivo(caminho);
     if (!arquivo.is_open()) {
         std::cout << "Não foi possível abrir o arquivo: " << caminho << std::endl;
-        std::exit(1); // evita continuar a execução
+        std::exit(1);
     }
 
     if(!(arquivo >> n >> m >> fogo_i >> fogo_j >> posX >> posY)){
@@ -443,6 +443,8 @@ Para cada ciclo:
 -Propaga o fogo com base no vento e tempo das chamas
 
 -Caso o animal esteja em água, umedece o entorno.
+
+-Mostra a posição do animal na matriz para facilitar o entendimento.
 
 -Salva todas as informações no arquivo
 
